@@ -25,9 +25,9 @@ class Expiration extends Command
      */
     public function handle()
     {
-        $users = User::Where('expired',0)->get();
-        foreach($users as $user){
-            $user->update(['expried'=>1]);
+        $doctor = Doctor::Where('expired',0)->get();
+        foreach($Doctor as $doctor){
+            $doctor->update(['expried'=>1]);
         }
     }
 }
