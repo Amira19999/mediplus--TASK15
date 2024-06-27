@@ -27,7 +27,7 @@ class Expiration extends Command
     {
         $doctor = Doctor::Where('expired',0)->get();
         foreach($Doctor as $doctor){
-            $doctor->update(['expried'=>1]);
+            $doctor->update(['expried'=>2]);
         }
     }
 }
