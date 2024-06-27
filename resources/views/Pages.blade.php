@@ -1,0 +1,17 @@
+@extends('layouts.main')
+
+@section('content')  
+@include('includes.Slider')
+@include('includes.Schedule')
+@include('includes.Feautes')
+@include('includes.Fun-facts')
+@include('includes.choose')
+@include('includes.CallToAction')
+@include('includes.portfolio')
+@include('includes.service')
+@include('includes.PricingTable')
+@include('includes.BlogArea')
+@include('includes.clients')
+@include('includes.Appointment')
+@include('includes.Newsletter')
+@endsection
